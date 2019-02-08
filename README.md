@@ -65,5 +65,5 @@ Note: The interface is created using ReactJS
 - npm install
 - npm start
 
-![Screenshot](https://github.com/psaelango/Technical.Test/tree/master/public/screenshot.jpg)
+![Screenshot](https://github.com/psaelango/Technical.Test/blob/master/public/screenshot.JPG)
 
