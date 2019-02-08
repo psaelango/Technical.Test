@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font: 15px arial, sans-serif;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.challenge-container{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 50px;
+}
+.challenge-question{
+  background: #ddd;
+  color:black;
+  box-shadow: 5px #ddd;
+  word-wrap: break-word;
+}
+.challenge-question h2{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.challenge-form {
+  margin: 50px;
+}
+.challenge-form input{
+  color: black;
+}
